@@ -25,7 +25,7 @@ if /i not "%f%"==".json" (
 )
 
 :: 输入 PNG 文件
-echo 请拖入png图片并按回车9：(改后缀就行)
+echo 请拖入png图片并按回车：(改后缀就行)
 set /p png=
 if "%png%"=="" (
     echo [错误] 未输入任何内容，请重新输入。
